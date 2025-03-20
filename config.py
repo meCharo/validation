@@ -1,0 +1,3 @@
+# GOOGLE_API_KEY = "AIzaSyDb7H0_p_PTMz-spa06MhIhHcKXg-n8RI0"
+GOOGLE_API_KEY = "AIzaSyArDKgt2XsYWGqZXgGipOtOYyqy80cWXic"
+PDF_Format = 1

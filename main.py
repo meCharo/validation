@@ -206,9 +206,6 @@ def fill_empty(uspap: USPAP, pdf_path: str, my_gpt: GPTQuery):
                 uspap.fields[key] = False
 
 
-    pass
-
-
 def main():
     pdf_path = None
     pdf_format = 1
@@ -359,6 +356,7 @@ def main():
             response3 = my_gpt.get_answer_with_upload(prompt3)
             if "Not Found" not in response3:
                 uspap.fields[key3] = response3
+    fill_empty(uspap, pdf_path, my_gpt)
 
     print("======>Content<======")
     for (key, value) in uspap.fields.items():

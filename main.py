@@ -220,11 +220,13 @@ def main():
         print("wrong parameters, python main.py -i /path/to/file -f 1")
         exit()
 
+    print("start reading pdf")
     my_gpt = GPTQuery()
     uspap = USPAP()
     pdf = ReadPDF(pdf_path, pdf_format)
     pdf.read_pdf()
 
+    print("start filling fields")
     titles_str = str()
     titles_list = list()
     for i in range(0, len(pdf.content.keys())):

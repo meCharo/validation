@@ -1,6 +1,9 @@
+[TOC]
+
 # Getting Started
 ## 20221108 - 3020 Wilshire - Newmark Appraisal.pdf
 python main.py -i /path/to/file -f 2
+python main.py -i "/Users/charo/Desktop/validation_resources/20221108 - 3020 Wilshire - Newmark Appraisal.pdf" -f 2
 
 ### Result
 ```
@@ -131,6 +134,7 @@ the subject sales and other transfers, agreements of sale, options, and listings
 
 ## 20220614 - 3020 Wilshire - CBRE Land Appraisal - Valuation.pdf
 python main.py -i /path/to/file -f 1
+python main.py -i "/Users/charo/Desktop/validation_resources/20220614 - 3020 Wilshire - CBRE Land Appraisal - Valuation.pdf" -f 1
 
 ### Result
 ```
